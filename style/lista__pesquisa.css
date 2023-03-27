@@ -1,0 +1,40 @@
+.lista__pesquisa {
+    background-color: var(--cor-primeiro-bloco);
+    padding: 2em 20em;
+    border-radius: 60px;
+    margin: 0 24em;
+}
+
+.coneteudo-lista__pesquisa {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    list-style: none;
+}
+
+.conteudo-lista {
+    flex-direction: column;
+}
+
+.titulo__lista {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1em;
+    width: 7em;
+}
+
+.texto__pesquisa {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-texto-secundario);
+}
+
+.input__lista {
+    background-color: var(--cor-secundaria);
+    border-radius: 34px;
+    border-color: transparent;
+    background-image: url(../assets/lupa-1.svg);
+    background-repeat: no-repeat;
+    background-position: 1em;
+    padding: 2em
+}

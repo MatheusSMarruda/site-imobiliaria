@@ -1,0 +1,18 @@
+@import url(../style/cabecalho.css);
+@import url(../style/lugar-para__ficar.css);
+@import url(../style/lista__pesquisa.css);
+
+
+:root{
+    --cor-secundaria: #24AB70;
+    --cor-primeiro-bloco: #e1faef;
+    --cor-branca: #ffffff;
+    --cor-texto: #222222;
+    --cor-texto-secundario: #555555;
+    --cor-preta: #000000;
+    --texto-princial: "Open Sans"
+}
+
+body {
+    font-family: var(--texto-princial);
+}

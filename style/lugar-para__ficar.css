@@ -1,0 +1,37 @@
+.lugar-para__ficar {
+    margin: 2em 5em;
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+}
+
+.container__firstblock {
+    background-color: var(--cor-primeiro-bloco);
+    border-top-left-radius: 40px;
+}
+
+.titulo-primeiro__bloco {
+    font-size: 64px;
+    font-weight: 600;
+    width: 9em;
+    margin: 1em 0 1em 1em;
+}
+
+.texto-primeiro__bloco {
+    font-size: 20px;
+    font-weight: 400;
+    width: 27em;
+    margin: 0 0 5em 3.5em;
+    color: var(--cor-texto-secundario);
+}
+
+.botao-primeiro__bloco {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-preta);
+    background-image: url(../assets/botao-watch.svg);
+    background-repeat: no-repeat;
+    padding: 1em 0 0.5em 3.5em;
+    margin-left: 3em;
+}

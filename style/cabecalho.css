@@ -1,0 +1,24 @@
+.cabecalho__juncao{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.cabecalho__itens {
+    list-style: none;
+    margin: 3em 0;
+}
+
+.cabecalho__intens-links {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+.menu__login {
+    text-decoration: none;
+    color: var(--cor-branca);
+    padding: 1em 2em;
+    background: var(--cor-secundaria);
+    border-radius: 35px;
+}
+
