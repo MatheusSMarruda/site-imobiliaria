@@ -2,13 +2,14 @@
 @import url(../style/lugar-para__ficar.css);
 @import url(../style/lista__pesquisa.css);
 @import url(../style/lista__hotels.css);
-
+@import url(../style/beneficios.css);
 
 :root{
     --cor-secundaria: #24AB70;
     --cor-primeiro-bloco: #e1faef;
     --cor-branca: #ffffff;
-    --cor-lista-hotels: #fafafa;
+    --cor-lista-hotels: #f0f0f0;
+    --cor-borda: #d3d3d3;
     --cor-texto: #222222;
     --cor-texto-secundario: #555555;
     --cor-preta: #000000;
