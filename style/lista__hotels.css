@@ -5,7 +5,7 @@
 }
 
 .botao-lista__hotels {
-    background-color: var(--cor-primeiro-bloco);
+    background-color: var(--cor-terciaria);
     text-decoration: none;
     color: var(--cor-secundaria);
     padding: 1em 2em;

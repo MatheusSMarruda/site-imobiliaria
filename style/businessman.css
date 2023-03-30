@@ -1,0 +1,27 @@
+.businessman {
+    margin: 5% 15%;
+    background-color: var(--cor-lista-hotels);
+    border-radius: 24px;
+    align-items: center;
+}
+
+.container__businessman {
+    display: flex;
+    align-items: center;
+}
+
+.businessman__conteudo {
+    flex-direction: column;
+    margin: 0 7%;
+}
+
+.texto__Businessman {
+    line-height: 1.5;
+    color: var(--cor-texto-secundario);
+}
+
+.titulo__businessman {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 3em 0 1em 0;
+}

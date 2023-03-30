@@ -1,0 +1,40 @@
+.discovery {
+    display: flex;
+    margin: 5% 15%;
+    background-color: var(--cor-terciaria);
+    align-items: center;
+    border-radius: 20px;
+}
+
+.container__discovery {
+    align-items: center;
+    flex-direction: row;
+    margin: 0 5%;
+}
+
+.titulo__discovery {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.texto__discovery {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-texto-secundario);
+   
+}
+
+.container__discovery p{
+    margin-bottom: 2em;
+}
+
+
+.botão__discovery {
+    text-decoration: none;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+    padding: 1em 2em;
+    border-radius: 30px;
+    margin-top: 400px;
+}

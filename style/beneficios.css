@@ -1,12 +1,12 @@
 .beneficios {
     display: flex;
-    margin: 0 15%;
+    margin: 5% 15%;
 }
 
 .titulo__beneficios {
     font-size: 40px;
     font-weight: 600;
-    width: 60%;
+    width: 90%;
     margin: 1em 0;
 }
 
@@ -14,8 +14,9 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--cor-texto-secundario);
-    width: 65%;
+    width: 75%;
     margin: 3em 0;
+    line-height: 2;
 }
 
 .botao__beneficios {
@@ -33,17 +34,29 @@
 }
 
 .conteudo-lista__beneficios {
-    padding: 1em;
+    height: 8vw;
+    width: 8vw;
     margin: 1em;
     list-style: none;
-    border-radius: 24px;
+    border-radius: 10px;
     border-color: var(--cor-borda);
     border-width: 1px;
     border-style: solid;
+    text-align: center;
 }
 
 .link-lista__beneficios {
-    flex-direction: column;
     text-decoration: none;
     color: var(--cor-preta);
+}
+
+.teste p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.teste img{
+    margin-top: 40px;
+    max-width: 100%%;
+    height: auto;
 }

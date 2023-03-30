@@ -3,16 +3,23 @@
 @import url(../style/lista__pesquisa.css);
 @import url(../style/lista__hotels.css);
 @import url(../style/beneficios.css);
+@import url(../style/discovery.css);
+@import url(./businessman.css);
+@import url(./footer.css);
 
 :root{
+
+    /*cores*/
     --cor-secundaria: #24AB70;
-    --cor-primeiro-bloco: #e1faef;
     --cor-branca: #ffffff;
-    --cor-lista-hotels: #f0f0f0;
+    --cor-lista-hotels: #fafafa;
     --cor-borda: #d3d3d3;
     --cor-texto: #222222;
     --cor-texto-secundario: #555555;
     --cor-preta: #000000;
+    --cor-terciaria: #F4FBF8;
+
+    /*fontes*/
     --texto-princial: "Open Sans"
 }
 
