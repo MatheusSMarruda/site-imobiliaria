@@ -9,8 +9,6 @@
 ## :art:Design
 <p> O design desse projeto foi feito por: Davixq.ui/ux . Lembrando que eu apenas o desenvolvi para fins educativos próprios. </p>
 
-## :tv:Veja ou assista a um exemplo do meu projeto em ação:
+## :tv:Veja um exemplo do meu projeto em ação:
 
-![](https://github.com/MatheusSMarruda/site-imobiliaria/blob/master/site-imobiliaria.png?raw=true)
-
-[![Assista ao vídeo](https://img.youtube.com/vi/{https://youtu.be/q2_D6wIBqQg}/0.jpg)](https://www.youtube.com/watch?v={https://youtu.be/q2_D6wIBqQg})
+![Site](https://github.com/MatheusSMarruda/site-imobiliaria/blob/master/gif.git.gif?raw=true)
