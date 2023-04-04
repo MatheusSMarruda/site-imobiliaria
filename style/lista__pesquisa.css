@@ -47,3 +47,37 @@
     padding: 0.3em;
     padding-left: 2em;
 }
+
+
+@media screen and (max-width: 412px) {
+    .lista__pesquisa {
+        margin-left: 27%;
+        top: 80vw;
+        background-color: var(--cor-terciaria);
+    }
+
+    .conteudo-lista {
+        text-align: center;
+    }
+
+    .coneteudo-lista__pesquisa {
+        gap: 1em;
+        flex-direction: column;
+    }
+
+    .linha__lista {
+        width: 25vw;
+        height: 1px;
+    }
+
+    .titulo__lista {
+        margin-right: 0;
+        font-size: 15px;
+    }
+
+    .input__lista {
+        padding: 1em;
+        width: 8em;
+    }
+
+}

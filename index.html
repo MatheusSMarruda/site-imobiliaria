@@ -15,15 +15,30 @@
 <body>
     <header>    
         <section class="cabecalho">
-            <ul class="cabecalho__juncao">
-                <li class="cabecalho__itens"><a href="#" class="cabecalho__intens-links">Booking</a></li>
-                <li class="cabecalho__itens"><a href="#" class="cabecalho__intens-links">Facilities</a></li>
-                <li class="cabecalho__itens"><a href="#" class="cabecalho__intens-links">About Us</a></li>
-                <li class="cabecalho__itens"><a href="#" class="cabecalho__intens-links">Location</a></li>
-                <li class="cabecalho__itens"><a href="#" class="cabecalho__intens-links">Contact</a></li>
-                <div class="cabecalho__login">
-                    <li class="cabecalho__itens"><a href="#" class="menu__login">Login</a></li>
-                </div>
+            <div class="menu__hamburguer">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <img src=".//assets/menu-hamburguer.svg" class="imagem__menu__hamburguer">
+                    <span class="cabecalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="conteudo__menu__hamburguer">
+                    <li class="lista__menu__hamburguer"><a href="#" class="cabecalho__intens-links">Booking</a></li>
+                    <li class="lista__menu__hamburguer"><a href="#" class="cabecalho__intens-links">Facilities</a></li>
+                    <li class="lista__menu__hamburguer"><a href="#" class="cabecalho__intens-links">About Us</a></li>
+                    <li class="lista__menu__hamburguer"><a href="#" class="cabecalho__intens-links">Location</a></li>
+                    <li class="lista__menu__hamburguer"><a href="#" class="cabecalho__intens-links">Contact</a></li>
+                </ul> 
+                <li class="cabecalho__itens"><a href="#" class="menu__login__hamburguer">Login</a></li>
+            </div>
+                <ul class="cabecalho__juncao">
+                    <li class="cabecalho__itens"><a href="#" class="cabecalho__intens-links">Booking</a></li>
+                    <li class="cabecalho__itens"><a href="#" class="cabecalho__intens-links">Facilities</a></li>
+                    <li class="cabecalho__itens"><a href="#" class="cabecalho__intens-links">About Us</a></li>
+                    <li class="cabecalho__itens"><a href="#" class="cabecalho__intens-links">Location</a></li>
+                    <li class="cabecalho__itens"><a href="#" class="cabecalho__intens-links">Contact</a></li>
+                    <div class="cabecalho__login">
+                        <li class="cabecalho__itens"><a href="#" class="menu__login">Login</a></li>
+                    </div>
             </ul>
         </section>
     </header>
@@ -41,11 +56,11 @@
         <section class="lista__pesquisa">
             <ul class="coneteudo-lista__pesquisa">
                 <li class="conteudo-lista"><h2 class="titulo__lista"><img src="./assets/localização-1.svg" class="imagem__tag">Location</h2><p class="texto__pesquisa">United States</p></li>
-                <hr>
+                <hr class="linha__lista">
                 <li class="conteudo-lista"><h2 class="titulo__lista"><img src="./assets/calendario-1.svg" class="imagem__tag">Check in</h2><p class="texto__pesquisa">10 Jun 2021</p></li>
-                <hr>
-                <li class="conteudo-lista"><h2 class="titulo__lista"><img src="./assets/calendario-1.svg" class="imagem__tag">Check in</h2><p class="texto__pesquisa">16 Jun 2021</p></li>
-                <hr>
+                <hr class="linha__lista">
+                <li class="conteudo-lista"><h2 class="titulo__lista"><img src="./assets/calendario-1.svg" class="imagem__tag">Check out</h2><p class="texto__pesquisa">16 Jun 2021</p></li>
+                <hr class="linha__lista">
                 <li class="conteudo-lista"><H2 class="titulo__lista"><img src="./assets/pessoa-1.svg" class="imagem__tag">Rooms for</H2><p class="texto__pesquisa">1 room, 2 guests</p></li>
                 <li class="conteudo-lista"></li>
                 <input type="text" id="search" name="pesquisa-input" class="input__lista" placeholder="Search">
@@ -53,7 +68,6 @@
         </section>
 
         <section class="lista__hotels">
-            
                 <h3 class="titulo-lista__hotels">Our most popular Hotels</h3>
             <div class="container__hotels">
                 <p class="texto-lista__hotels">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -64,10 +78,10 @@
                     <div class="conteudo__preços"><p>$200 Par Night</p><hr><img src="./assets/estrelas.svg"></div>
                 </li>
                 <li class="conteudo__hotels"><img src="./assets/hotel-2.svg"><p class="texto__rua">London NW8 7JT England</p><h3 class="titulo__hotels">The Resident Soho</h3>
-                    <div class="conteudo__preços"><p>$200 Par Night</p><hr><img src="./assets/estrelas.svg"></div>
+                    <div class="conteudo__preços"><p>$200 Par Night</p><hr><img src="./assets/estrelas.svg" class="imagem__lista__hotels"></div>
                 </li>
                 <li class="conteudo__hotels"><img src="./assets/hotel-3.svg"><p class="texto__rua">London NW8 7JT England</p><h3 class="titulo__hotels">London Bridge Hotel</h3>
-                    <div class="conteudo__preços"><p>$200 Par Night</p><hr><img src="./assets/estrelas.svg"></div>
+                    <div class="conteudo__preços"><p>$200 Par Night</p><hr><img src="./assets/estrelas.svg" class="imagem__lista__hotels"></div>
                 </li>
             </ul>
         </section>

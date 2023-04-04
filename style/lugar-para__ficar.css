@@ -35,3 +35,32 @@
     padding: 1em 0 0.5em 3.5em;
     margin-left: 3em;
 }
+
+@media screen and (max-width: 412px) {
+    .imagem-primeira__casa {
+        width: 60%;
+    }
+
+    .container__firstblock {
+        border-top-left-radius: 20px;
+        width: 50vw;
+    }
+
+    .titulo-primeiro__bloco {
+        font-size: 15px;
+    }
+
+    .texto-primeiro__bloco {
+        font-size: 10px;
+        width: 70%;
+        margin: 0 0 1.5em 1.75em;
+    }
+
+    .botao-primeiro__bloco {
+        font-size: 10px;
+        padding: 0.5em 0 0.25em 1.85em;
+        margin-left: 1.5em;
+        background-size: 25%;
+    }
+
+}
