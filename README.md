@@ -11,4 +11,4 @@
 
 ## :tv:Veja um exemplo do meu projeto em ação:
 
-![Site](https://github.com/MatheusSMarruda/site-imobiliaria/blob/master/gif.git.gif?raw=true)
+![Site](https://github.com/MatheusSMarruda/site-imobiliaria/blob/master/assets/gif.git.gif)
