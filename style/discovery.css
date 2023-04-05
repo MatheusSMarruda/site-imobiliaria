@@ -39,7 +39,7 @@
     margin-top: 400px;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
     .discovery {
         height: 120vw;
         align-items: center;

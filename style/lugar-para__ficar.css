@@ -36,7 +36,7 @@
     margin-left: 3em;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
     .imagem-primeira__casa {
         width: 60%;
     }

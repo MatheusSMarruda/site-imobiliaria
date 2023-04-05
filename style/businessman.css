@@ -26,7 +26,7 @@
     margin: 3em 0 1em 0;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
     .businessman {
         margin: 2em;
         width: 85%;

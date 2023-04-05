@@ -61,7 +61,7 @@
     height: auto;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
 
     .beneficios {
         width: 0 80vw;

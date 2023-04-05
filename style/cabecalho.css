@@ -31,7 +31,7 @@
     display: none;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
     .conteudo__menu__hamburguer, .container__botao, .imagem__menu__hamburguer {
         display: block;
         align-items: center;

@@ -58,7 +58,7 @@
     margin: 0 1em;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 414px) {
     .titulo-lista__hotels {
         text-align: center;
         font-size: 15px;
