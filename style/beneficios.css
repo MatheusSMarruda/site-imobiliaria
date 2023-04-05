@@ -60,3 +60,53 @@
     max-width: 100%%;
     height: auto;
 }
+
+@media screen and (max-width: 412px) {
+
+    .beneficios {
+        width: 0 80vw;
+    }
+
+    .container__beneficios {
+        text-align: center;
+    }
+
+    .beneficios {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titulo__beneficios {
+        margin: 2em 0 2em 1em;
+        margin-top: 150px;
+        font-size: 15px;
+    }
+
+    .texto__beneficios {
+        margin: 2em 0 4em 3em;
+        font-size: 10px;
+    }
+
+    .botao__beneficios {
+        margin-right: 20px;
+    }
+
+    .lista__beneficios {
+        flex-direction: column;
+    }
+
+    .conteudo-lista__beneficios {
+        height: 28vw;
+        width: 28vw;
+        margin: 2em 0 2em 4.5em;
+    }
+
+    .teste img {
+        margin: 1em;
+    }
+
+    .teste p{
+        font-size: 15px;
+        margin: 0;
+    }
+}

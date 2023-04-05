@@ -25,3 +25,32 @@
     font-weight: 600;
     margin: 3em 0 1em 0;
 }
+
+@media screen and (max-width: 412px) {
+    .businessman {
+        margin: 2em;
+        width: 85%;
+    }
+
+    .container__businessman {
+        flex-direction: column;
+    }
+
+    .texto__Businessman {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .img__aspas {
+        width: 4vw;
+    }
+
+    .titulo__businessman {
+        font-size: 15px;
+    }
+
+    .imagem__businessman {
+        width: 99%;
+        border-bottom-left-radius: 12px;
+    }
+}

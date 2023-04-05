@@ -47,3 +47,41 @@
 .conteudo__lista__footer p{
     margin-bottom: 1em;
 }
+
+@media screen and (max-width: 412px) {
+
+    .texto__footer {
+        width: 100%;
+    }
+
+    .footer {
+        text-align: center
+        margin: 0;
+    }
+
+    .container__footer {
+        flex-direction: column;
+        text-align: center
+    }
+
+    .imagem__redes {
+        margin-left: 20px
+    }
+
+    .conteudo__lista__footer {
+        margin: 2em 0;
+        flex-direction: column;
+    }
+
+    .titulo__lista__footer{
+        margin: 2em 0;
+    }
+
+    .conteudo__lista__footer li{
+        margin: 0;
+    }
+
+    .container__footer2 img {
+        margin: 1em 1em;
+    }
+}

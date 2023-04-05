@@ -62,7 +62,7 @@
     .titulo-lista__hotels {
         text-align: center;
         font-size: 15px;
-        margin: 125vw 0 2em 0;
+        margin: 145vw 0 2em 0;
     }
 
     .container__hotels {
@@ -84,6 +84,32 @@
 
     .conteudo-lista__hotels {
         flex-direction: column;
+        gap: 10em;
     }
 
+    .imagem__lista__hotels {
+        width: 84vw;
+    }
+
+    .conteudo__hotels {
+        height: 46vw;
+        margin: 2em 2em;
+    }
+
+    .texto__rua {
+        font-size: 10px;
+        margin: 0.5em 0 0.5em 0.5em;
+    }
+
+    .titulo__hotels {
+        font-size: 15px;
+    }
+
+    .conteudo__preços {
+        font-size: 10px;
+    }
+    
+    .imagem__estrelas {
+        width: 14vw;
+    }
 }

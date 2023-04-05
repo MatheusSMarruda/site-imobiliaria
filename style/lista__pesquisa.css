@@ -1,6 +1,6 @@
 .lista__pesquisa {
     position: absolute;
-    top: 34vw;
+    top: 36vw;
     left: 1vw;
     background-color: var(--cor-branca);
     border-radius: 60px;
@@ -48,10 +48,9 @@
     padding-left: 2em;
 }
 
-
 @media screen and (max-width: 412px) {
     .lista__pesquisa {
-        margin-left: 27%;
+        margin: 10% 0 0 27%;
         top: 80vw;
         background-color: var(--cor-terciaria);
     }
